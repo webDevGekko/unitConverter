@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Lustria&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Unit Converter</title>
+</head>
+<body>
+    <section id="Converter-Wrapper">
+        <section id="Converter-Input">
+            <h1>Metric/Imperial Unit Conversion</h1>
+            <img id="darkmode" src="./icons/icons8-moon-48.png"/>
+            <input type="number" name="" id="input-el">
+            <button id="convert-btn">Convert</button>
+        </section>
+        <section id="Converter-Output">
+            <article id="lenght" class="card" >
+                <h2>Lenght ( Mether/Feet)</h2>
+                    <p id="length-el"></p>
+            </article>
+            <article id="volume" class="card">
+                <h2>Volume ( Liters/Gallons)</h2>
+                    <p id="volume-el"></p>
+            </article>
+            <article id="mass" class="card">
+                <h2>Mass ( Kilograms/Pounds)</h2>
+                    <p id="mass-el"></p>
+            </article>
+        </section>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
